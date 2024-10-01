@@ -1,6 +1,6 @@
 # IEC 61850 Sampled Values port for STM32
 
-This code implements IEC 61850 Sampled Values protocol ported to STM32 from https://github.com/mz-automation/libiec61850
+This code implements IEC 61850 Sampled Values protocol ported to STM32 from https://github.com/mz-automation/libiec61850.
 The demo project is created for STM32F429IGT6. It uses DP83848 Ethernet PHY.  
 This implementation is based on LWIP stack with FreeRTOS. You can find the libiec61850 SV code in STM32F4_IEC61850_SV\Modules\libiec61850.  
 The demo project code is located in STM32F4_IEC61850_SV\Core\Src\main.c and STM32F4_IEC61850_SV\Modules\SV.
