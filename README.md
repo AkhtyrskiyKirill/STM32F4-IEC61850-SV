@@ -14,7 +14,7 @@ for samples of current in frames.
 ## Project test
 
 To test the project the STM32F429IGT6 dev board was connected directly to PC via ethernet cable. The SV frames were captured using Wireshark and
-NetworkAnalyser software. 
+NetworkAnalyser (ПО "Сетевой анализатор", Динамика) software. 
 
 ![Screenshot](https://github.com/AkhtyrskiyKirill/STM32F4-IEC61850-SV/blob/main/imgs/SV_Wireshark.png)  
 
