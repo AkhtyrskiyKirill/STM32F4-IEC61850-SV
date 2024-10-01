@@ -1,6 +1,6 @@
-# IEC 61850 Sampled Values port for STM32
+# IEC 61850 Sampled Values publisher library for STM32
 
-This code implements IEC 61850 Sampled Values protocol ported to STM32 from https://github.com/mz-automation/libiec61850.
+This code implements IEC 61850 Sampled Values protocol (publisher) ported to STM32 from https://github.com/mz-automation/libiec61850.
 The demo project is created for STM32F429IGT6. It uses DP83848 Ethernet PHY.  
 This implementation is based on LWIP stack with FreeRTOS. You can find the libiec61850 SV code in STM32F4_IEC61850_SV\Modules\libiec61850.  
 The demo project code is located in STM32F4_IEC61850_SV\Core\Src\main.c and STM32F4_IEC61850_SV\Modules\SV.
@@ -9,7 +9,7 @@ The demo project code is located in STM32F4_IEC61850_SV\Core\Src\main.c and STM3
 
 The demo project implements 3-phase 50 Hz 230 V sine wave voltage simulation. The simulated signals are captured at 12800 Hz sample frequency 
 (256 samples per period) and packed into IEC 61850 Sampled Values frames (8 ASDUs in one SV frame - 8 points in frame). There also are placeholders
-for samples of current in frames.
+for samples of current in frames. STM32 microcontroller uses this IEC61850 library to publish SV frames
 
 ## Project test
 
