@@ -1,0 +1,6 @@
+../Modules/libiec61850/hal/Src/lib_memory.c:17:1:noMemoryAvailableHandler	8	static
+../Modules/libiec61850/hal/Src/lib_memory.c:24:1:Memory_installExceptionHandler	16	static
+../Modules/libiec61850/hal/Src/lib_memory.c:31:1:Memory_malloc	24	static
+../Modules/libiec61850/hal/Src/lib_memory.c:43:1:Memory_calloc	24	static
+../Modules/libiec61850/hal/Src/lib_memory.c:55:1:Memory_realloc	24	static
+../Modules/libiec61850/hal/Src/lib_memory.c:66:1:Memory_free	16	static

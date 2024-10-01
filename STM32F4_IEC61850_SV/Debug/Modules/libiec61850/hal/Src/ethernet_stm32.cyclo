@@ -1,0 +1,4 @@
+../Modules/libiec61850/hal/Src/ethernet_stm32.c:19:6:Ethernet_getInterfaceMACAddress	2
+../Modules/libiec61850/hal/Src/ethernet_stm32.c:30:16:Ethernet_createSocket	1
+../Modules/libiec61850/hal/Src/ethernet_stm32.c:41:6:Ethernet_destroySocket	1
+../Modules/libiec61850/hal/Src/ethernet_stm32.c:48:6:Ethernet_sendPacket	1

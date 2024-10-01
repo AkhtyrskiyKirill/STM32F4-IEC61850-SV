@@ -1,0 +1,2 @@
+../Modules/SV/Src/IEC61850_SV.c:67:6:IEC61850_SV_Task	608	static
+../Modules/SV/Src/IEC61850_SV.c:186:6:TIM2_IRQHandler	24	static,ignoring_inline_asm
